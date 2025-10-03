@@ -2,108 +2,108 @@
 	"settings": [
 		{
 			"id": "showPlatform",
-			"label": "Afficher la plateforme",
+			"label": "Show Platform",
 			"description": "",
 			"type": "checkbox",
 			"defaultValue": false,
-			"group": "Apparence"
+			"group": "Appearance"
 		},
 		{
 			"id": "showAvatar",
-			"label": "Afficher l’avatar",
+			"label": "Show Avatar",
 			"description": "",
 			"type": "checkbox",
 			"defaultValue": true,
-			"group": "Apparence"
+			"group": "Appearance"
 		},
 		{
 			"id": "showTimestamps",
-			"label": "Afficher l’heure",
+			"label": "Show Timestamps",
 			"description": "",
 			"type": "checkbox",
 			"defaultValue": true,
-			"group": "Apparence"
+			"group": "Appearance"
 		},
 		{
 			"id": "showBadges",
-			"label": "Afficher les badges",
+			"label": "Show Badges",
 			"description": "",
 			"type": "checkbox",
 			"defaultValue": true,
-			"group": "Apparence"
+			"group": "Appearance"
 		},
 		{
 			"id": "showPronouns",
-			"label": "Afficher les pronoms",
+			"label": "Show Pronouns",
 			"description": "",
 			"type": "checkbox",
 			"defaultValue": true,
-			"group": "Apparence"
+			"group": "Appearance"
 		},
 		{
 			"id": "showUsername",
-			"label": "Afficher le pseudo",
+			"label": "Show Username",
 			"description": "",
 			"type": "checkbox",
 			"defaultValue": true,
-			"group": "Apparence"
+			"group": "Appearance"
 		},
 		{
 			"id": "showMessage",
-			"label": "Afficher le message",
-			"description": "Franchement, si tu désactives ça t’es bête mdr",
+			"label": "Show Message",
+			"description": "Honestly, if you turn this off, you're stupid lmao",
 			"type": "checkbox",
 			"defaultValue": true,
-			"group": "Apparence"
+			"group": "Appearance"
 		},
 		{
 			"id": "font",
-			"label": "Police d’écriture",
+			"label": "Font",
 			"description": "",
 			"type": "text",
 			"defaultValue": "",
-			"group": "Apparence"
+			"group": "Appearance"
 		},
 		{
 			"id": "fontSize",
-			"label": "Taille de police",
+			"label": "Font Size",
 			"description": "",
 			"type": "number",
 			"min": 1,
 			"max": 120,
 			"defaultValue": 20,
-			"group": "Apparence"
+			"group": "Appearance"
 		},
 		{
 			"id": "lineSpacing",
-			"label": "Interlignage",
+			"label": "Line Spacing",
 			"description": "",
 			"type": "number",
 			"min": 0,
 			"defaultValue": 1.7,
 			"step": ".1",
-			"group": "Apparence"
+			"group": "Appearance"
 		},
 		{
 			"id": "useChatBubbles",
-			"label": "Bulles de chat",
+			"label": "Chat Bubbles",
 			"description": "",
 			"type": "checkbox",
 			"defaultValue": false,
-			"group": "Apparence"
+			"group": "Appearance"
 		},
 		{
 			"id": "bubbleColor",
-			"label": "Couleur des bulles",
+			"label": "Bubble Color",
 			"description": "",
 			"type": "color",
 			"defaultValue": "#1d1d1d",
 			"showIf": "useChatBubbles",
-			"group": "Apparence"
+			"group": "Appearance"
 		},
 		{
 			"id": "bubbleOpacity",
-			"label": "Opacité des bulles",
+			"label": "Bubble Opacity",
 			"description": "",
 			"type": "number",
 			"defaultValue": "0.90",
@@ -111,56 +111,56 @@
 			"max": 1,
 			"step": ".01",
 			"showIf": "useChatBubbles",
-			"group": "Apparence"
+			"group": "Appearance"
 		},
 		{
 			"id": "background",
-			"label": "Arrière-plan",
+			"label": "Background",
 			"description": "",
 			"type": "color",
 			"defaultValue": "#000000",
-			"group": "Apparence"
+			"group": "Appearance"
 		},
 		{
 			"id": "opacity",
-			"label": "Opacité de l’arrière-plan",
+			"label": "Background Opacity",
 			"description": "",
 			"type": "number",
 			"defaultValue": "0",
 			"min": 0,
 			"max": 1,
 			"step": ".01",
-			"group": "Apparence"
+			"group": "Appearance"
 		},
 		{
 			"id": "hideAfter",
-			"label": "Masquer après",
-			"description": "Les messages disparaissent après X secondes (0 pour désactiver)",
+			"label": "Hide After",
+			"description": "Messages fade after X seconds (0 to disable)",
 			"type": "number",
 			"min": 0,
 			"max": 120,
 			"defaultValue": 0,
-			"group": "Général"
+			"group": "General"
 		},
 		{
 			"id": "excludeCommands",
-			"label": "Exclure les commandes",
-			"description": "Masquer les messages commençant par \"!\"",
+			"label": "Exclude Commands",
+			"description": "Hide messages starting with \"!\"",
 			"type": "checkbox",
 			"defaultValue": true,
-			"group": "Général"
+			"group": "General"
 		},
 		{
 			"id": "ignoreChatters",
-			"label": "Ignorer certains utilisateurs",
-			"description": "Les pseudos listés seront ignorés",
+			"label": "Ignore Chatters",
+			"description": "Ignored chatters will not be shown",
 			"type": "text",
 			"defaultValue": "StreamElements,Streamlabs",
-			"group": "Général"
+			"group": "General"
 		},
 		{
 			"id": "scrollDirection",
-			"label": "Sens de défilement",
+			"label": "Scroll Direction",
 			"description": "",
 			"type": "select",
 			"options": [
@@ -170,109 +170,109 @@
 				},
 				{
 					"value": 2,
-					"label": "Inversé"
+					"label": "Reversed"
 				}
 			],
 			"defaultValue": 1,
-			"group": "Général"
+			"group": "General"
 		},
 		{
 			"id": "groupConsecutiveMessages",
-			"label": "Grouper les messages consécutifs",
-			"description": "Cache le pseudo sur les messages consécutifs d’un même utilisateur<br>Remarque : ce paramètre est ignoré si le sens de défilement est « Inversé »",
+			"label": "Group Consecutive Messages",
+			"description": "Hide username on consecutive messages from the same user<br>Note: This setting is ignored for \"Reversed\" scroll direction",
 			"type": "checkbox",
 			"defaultValue": false,
-			"group": "Général"
+			"group": "General"
 		},
 		{
 			"id": "inlineChat",
-			"label": "Chat en ligne",
-			"description": "Supprime l’espace après le pseudo",
+			"label": "In-line Chat",
+			"description": "Remove the line space after the username",
 			"type": "checkbox",
 			"defaultValue": false,
-			"group": "Général"
+			"group": "General"
 		},
 		{
 			"id": "imageEmbedPermissionLevel",
-			"label": "Intégrer les images",
-			"description": "Intègre automatiquement les images pour ces utilisateurs",
+			"label": "Embed Images",
+			"description": "Automatically embed images for these users",
 			"type": "select",
 			"options": [
 				{
 					"value": 40,
-					"label": "Streamer"
+					"label": "Broadcaster"
 				},
 				{
 					"value": 30,
-					"label": "Modos & Streamer"
+					"label": "Mods & Broadcaster"
 				},
 				{
 					"value": 20,
-					"label": "VIPs, Modos & Streamer"
+					"label": "VIPs, Mods & Broadcaster"
 				},
 				{
 					"value": 15,
-					"label": "Subs, VIPs, Modos & Streamer"
+					"label": "Subs, VIPs, Mods & Broadcaster"
 				},
 				{
 					"value": 10,
-					"label": "Tout le monde"
+					"label": "Everyone"
 				},
 				{
 					"value": 69420,
-					"label": "Personne"
+					"label": "Nobody"
 				}
 			],
 			"defaultValue": 20,
-			"group": "Général"
+			"group": "General"
 		},
 		{
 			"id": "showYouTubeLinkPreviews",
-			"label": "Prévisualiser les liens YouTube",
+			"label": "Show YouTube Link Previews",
 			"description": "",
 			"type": "checkbox",
 			"defaultValue": true,
-			"group": "Général"
+			"group": "General"
 		},
 		{
 			"id": "showTwitchMessages",
-			"label": "Messages du chat",
+			"label": "Chat Messages",
 			"description": "",
 			"type": "checkbox",
 			"defaultValue": true,
-			"group": "Quels messages Twitch voulez-vous voir ?"
+			"group": "Which Twitch messages do you want to see?"
 		},
 		{
 			"id": "showTwitchAnnouncements",
-			"label": "Annonces",
+			"label": "Announcements",
 			"description": "",
 			"type": "checkbox",
 			"defaultValue": true,
-			"group": "Quels messages Twitch voulez-vous voir ?"
+			"group": "Which Twitch messages do you want to see?"
 		},
 		{
 			"id": "showTwitchFollows",
-			"label": "Nouveaux follows",
+			"label": "New Followers",
 			"description": "",
 			"type": "checkbox",
 			"defaultValue": false,
-			"group": "Quels messages Twitch voulez-vous voir ?"
+			"group": "Which Twitch messages do you want to see?"
 		},
 		{
 			"id": "showTwitchSubs",
-			"label": "Nouveaux abonnements",
+			"label": "New Subscribers",
 			"description": "",
 			"type": "checkbox",
 			"defaultValue": true,
-			"group": "Quels messages Twitch voulez-vous voir ?"
+			"group": "Which Twitch messages do you want to see?"
 		},
 		{
 			"id": "showTwitchChannelPointRedemptions",
-			"label": "Récompenses de points de chaîne",
+			"label": "Channel Point Redemptions",
 			"description": "",
 			"type": "checkbox",
 			"defaultValue": true,
-			"group": "Quels messages Twitch voulez-vous voir ?"
+			"group": "Which Twitch messages do you want to see?"
 		},
 		{
 			"id": "showTwitchRaids",
@@ -280,37 +280,37 @@
 			"description": "",
 			"type": "checkbox",
 			"defaultValue": true,
-			"group": "Quels messages Twitch voulez-vous voir ?"
+			"group": "Which Twitch messages do you want to see?"
 		},
 		{
 			"id": "showTwitchSharedChat",
-			"label": "Chat partagé",
+			"label": "Shared Chat Messages",
 			"description": "",
 			"type": "select",
 			"options": [
 				{
 					"value":  2,
-					"label": "Afficher & Mettre en évidence"
+					"label": "Show & Highlight"
 				},
 				{
 					"value": 1,
-					"label": "Afficher sans mettre en évidence"
+					"label": "Show but do not highlight"
 				},
 				{
 					"value": 0,
-					"label": "Ne pas afficher"
+					"label": "Do not show"
 				}
 			],
 			"defaultValue": 2,
-			"group": "Quels messages Twitch voulez-vous voir ?"
+			"group": "Which Twitch messages do you want to see?"
 		},
 		{
 			"id": "showYouTubeMessages",
-			"label": "Messages du chat",
+			"label": "Chat Messages",
 			"description": "",
 			"type": "checkbox",
 			"defaultValue": true,
-			"group": "Quels messages YouTube voulez-vous voir ?"
+			"group": "Which YouTube messages do you want to see?"
 		},
 		{
 			"id": "showYouTubeSuperChats",
@@ -318,7 +318,7 @@
 			"description": "",
 			"type": "checkbox",
 			"defaultValue": true,
-			"group": "Quels messages YouTube voulez-vous voir ?"
+			"group": "Which YouTube messages do you want to see?"
 		},
 		{
 			"id": "showYouTubeSuperStickers",
@@ -326,47 +326,47 @@
 			"description": "",
 			"type": "checkbox",
 			"defaultValue": true,
-			"group": "Quels messages YouTube voulez-vous voir ?"
+			"group": "Which YouTube messages do you want to see?"
 		},
 		{
 			"id": "showYouTubeMemberships",
-			"label": "Abonnements",
+			"label": "Memberships",
 			"description": "",
 			"type": "checkbox",
 			"defaultValue": true,
-			"group": "Quels messages YouTube voulez-vous voir ?"
+			"group": "Which YouTube messages do you want to see?"
 		},
 		{
 			"id": "kickUsername",
-			"label": "Pseudo Kick",
+			"label": "Kick Username",
 			"description": "",
 			"type": "text",
 			"defaultValue": "",
-			"group": "Quels messages Kick voulez-vous voir ?"
+			"group": "Which Kick messages do you want to see?"
 		},
 		{
 			"id": "showKickMessages",
-			"label": "Messages du chat",
+			"label": "Chat Messages",
 			"description": "",
 			"type": "checkbox",
 			"defaultValue": true,
-			"group": "Quels messages Kick voulez-vous voir ?"
+			"group": "Which Kick messages do you want to see?"
 		},
 		{
 			"id": "showKickSubs",
-			"label": "Nouveaux abonnements",
+			"label": "New Subscribers",
 			"description": "",
 			"type": "checkbox",
 			"defaultValue": true,
-			"group": "Quels messages Kick voulez-vous voir ?"
+			"group": "Which Kick messages do you want to see?"
 		},
 		{
 			"id": "showKickChannelPointRedemptions",
-			"label": "Récompenses de points de chaîne",
+			"label": "Channel Point Redemptions",
 			"description": "",
 			"type": "checkbox",
 			"defaultValue": true,
-			"group": "Quels messages Kick voulez-vous voir ?"
+			"group": "Which Kick messages do you want to see?"
 		},
 		{
 			"id": "showKickHosts",
@@ -374,140 +374,140 @@
 			"description": "",
 			"type": "checkbox",
 			"defaultValue": true,
-			"group": "Quels messages Kick voulez-vous voir ?"
+			"group": "Which Kick messages do you want to see?"
 		},
 		{
 			"id": "showKickGifts",
-			"label": "Cadeaux",
+			"label": "Gifts",
 			"description": "",
 			"type": "checkbox",
 			"defaultValue": true,
-			"group": "Quels messages Kick voulez-vous voir ?"
+			"group": "Which Kick messages do you want to see?"
 		},
 		{
 			"id": "enableTikTokSupport",
-			"label": "Activer le support TikTok",
+			"label": "Enable TikTok Support",
 			"description": "",
 			"type": "checkbox",
 			"defaultValue": false,
-			"group": "Quels messages TikTok voulez-vous voir ?"
+			"group": "Which TikTok messages do you want to see?"
 		},
 		{
 			"id": "showTikTokMessages",
-			"label": "Messages du chat",
+			"label": "Chat Messages",
 			"description": "",
 			"type": "checkbox",
 			"defaultValue": true,
 			"showIf": "enableTikTokSupport",
-			"group": "Quels messages TikTok voulez-vous voir ?"
+			"group": "Which TikTok messages do you want to see?"
 		},
 		{
 			"id": "showTikTokFollows",
-			"label": "Nouveaux follows",
+			"label": "New Followers",
 			"description": "",
 			"type": "checkbox",
 			"defaultValue": true,
 			"showIf": "enableTikTokSupport",
-			"group": "Quels messages TikTok voulez-vous voir ?"
+			"group": "Which TikTok messages do you want to see?"
 		},
 		{
 			"id": "showTikTokLikes",
 			"label": "Likes",
-			"description": "Likes en direct",
+			"description": "Self-updating Likes",
 			"type": "checkbox",
 			"defaultValue": true,
 			"showIf": "enableTikTokSupport",
-			"group": "Quels messages TikTok voulez-vous voir ?"
+			"group": "Which TikTok messages do you want to see?"
 		},
 		{
 			"id": "showTikTokGifts",
-			"label": "Cadeaux",
+			"label": "Gifts",
 			"description": "",
 			"type": "checkbox",
 			"defaultValue": true,
 			"showIf": "enableTikTokSupport",
-			"group": "Quels messages TikTok voulez-vous voir ?"
+			"group": "Which TikTok messages do you want to see?"
 		},
 		{
 			"id": "showTikTokSubs",
-			"label": "Nouveaux abonnements",
+			"label": "New Subscribers",
 			"description": "",
 			"type": "checkbox",
 			"defaultValue": true,
 			"showIf": "enableTikTokSupport",
-			"group": "Quels messages TikTok voulez-vous voir ?"
+			"group": "Which TikTok messages do you want to see?"
 		},
 		{
 			"id": "showStreamlabsDonations",
-			"label": "Tips Streamlabs",
-			"description": "<a href=\"https://docs.streamer.bot/guide/integrations/streamlabs\" target=\"_blank\">Cliquez pour connecter</a>",
+			"label": "Streamlabs Tips",
+			"description": "<a href=\"https://docs.streamer.bot/guide/integrations/streamlabs\" target=\"_blank\">Click to connect</a>",
 			"type": "checkbox",
 			"defaultValue": true,
-			"group": "Quels messages de dons voulez-vous voir ?"
+			"group": "Which donation messages do you want to see?"
 		},
 		{
 			"id": "showStreamElementsTips",
-			"label": "Tips StreamElements",
-			"description": "<a href=\"https://docs.streamer.bot/guide/integrations/streamelements\" target=\"_blank\">Cliquez pour connecter</a>",
+			"label": "StreamElements Tips",
+			"description": "<a href=\"https://docs.streamer.bot/guide/integrations/streamelements\" target=\"_blank\">Click to connect</a>",
 			"type": "checkbox",
 			"defaultValue": true,
-			"group": "Quels messages de dons voulez-vous voir ?"
+			"group": "Which donation messages do you want to see?"
 		},
 		{
 			"id": "showPatreonMemberships",
-			"label": "Abonnements Patreon",
-			"description": "<a href=\"https://docs.streamer.bot/guide/integrations/patreon\" target=\"_blank\">Cliquez pour connecter</a>",
+			"label": "Patreon Memberships",
+			"description": "<a href=\"https://docs.streamer.bot/guide/integrations/patreon\" target=\"_blank\">Click to connect</a>",
 			"type": "checkbox",
 			"defaultValue": true,
-			"group": "Quels messages de dons voulez-vous voir ?"
+			"group": "Which donation messages do you want to see?"
 		},
 		{
 			"id": "showKofiDonations",
-			"label": "Dons Ko-fi",
-			"description": "<a href=\"https://docs.streamer.bot/guide/integrations/ko-fi\" target=\"_blank\">Cliquez pour connecter</a>",
+			"label": "Ko-fi Donations",
+			"description": "<a href=\"https://docs.streamer.bot/guide/integrations/ko-fi\" target=\"_blank\">Click to connect</a>",
 			"type": "checkbox",
 			"defaultValue": true,
-			"group": "Quels messages de dons voulez-vous voir ?"
+			"group": "Which donation messages do you want to see?"
 		},
 		{
 			"id": "showTipeeeStreamDonations",
-			"label": "Dons TipeeeStream",
-			"description": "<a href=\"https://docs.streamer.bot/guide/integrations/tipeee-stream\" target=\"_blank\">Cliquez pour connecter</a>",
+			"label": "TipeeeStream Donations",
+			"description": "<a href=\"https://docs.streamer.bot/guide/integrations/tipeee-stream\" target=\"_blank\">Click to connect</a>",
 			"type": "checkbox",
 			"defaultValue": true,
-			"group": "Quels messages de dons voulez-vous voir ?"
+			"group": "Which donation messages do you want to see?"
 		},
 		{
 			"id": "showFourthwallAlerts",
-			"label": "Alertes Fourthwall",
-			"description": "<a href=\"https://docs.streamer.bot/guide/integrations/fourthwall\" target=\"_blank\">Cliquez pour connecter</a>",
+			"label": "Fourthwall Alerts",
+			"description": "<a href=\"https://docs.streamer.bot/guide/integrations/fourthwall\" target=\"_blank\">Click to connect</a>",
 			"type": "checkbox",
 			"defaultValue": true,
-			"group": "Quels messages de dons voulez-vous voir ?"
+			"group": "Which donation messages do you want to see?"
 		},
 		{
 			"id": "furryMode",
-			"label": "Mode Furry",
-			"description": "Miaou",
+			"label": "Furry Mode",
+			"description": "Meow",
 			"type": "checkbox",
 			"defaultValue": false,
-			"group": "Trucs très importants"
+			"group": "Very Important Stuff"
 		},
 		{
 			"id": "address",
-			"label": "Adresse",
-			"description": "Adresse du serveur Websocket Streamer.bot",
+			"label": "Address",
+			"description": "Streamer.bot Websocket Server Address",
 			"type": "text",
 			"defaultValue": "127.0.0.1",
-			"group": "Avancé"
+			"group": "Advanced"
 		},
 		{
 			"id": "port",
 			"label": "Port",
-			"description": "Port du serveur Websocket Streamer.bot",
+			"description": "Streamer.bot Websocket Server Port",
 			"type": "text",
 			"defaultValue": "8080",
-			"group": "Avancé"
+			"group": "Advanced"
 		}
 	]
 }
