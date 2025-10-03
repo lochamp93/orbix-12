@@ -5,60 +5,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Settings</title>
-    <style>
-        body {
-            margin: 0;
-            /* Remove default body margin */
-            display: flex;
-            /* Use flexbox for layout */
-            background: #181818;
-        }
-
-        #settings-container {
-            width: 600px;
-            /* 50% of viewport width */
-            min-width: 600px;
-            /* 50% of viewport width */
-            height: 100vh;
-            /* 100% of viewport height */
-            border: none;
-            /* Remove default iframe border */
-        }
-
-        #widget-container {
-            flex-grow: 1;
-            /* Allow the content-container to take up remaining space */
-            height: 100vh;
-        }
-
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-
-        .content-container {
-            width: 50vw;
-            height: 100vh;
-            background-color: #f0f0f0;
-            /* Example background for right side */
-            padding: 20px;
-            box-sizing: border-box;
-            /* Include padding in width/height */
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://unpkg.com/@streamerbot/client/dist/streamerbot-client.js"></script>
 </head>
 
 <body>
-
-    <iframe id="settings-container"></iframe>
-
-    <div id="widget-container">
-        <iframe id="widget"></iframe>
+    <!-- Header -->
+    <div id="header">
+        <img src="../../resources/logo.png" style="height: 40px;" />
+        <button id="membershipsButton" onclick="OpenMembershipPage()">Allez voir les wigets exclusifs aux membres nutty.gg!</button>
+        <div id="widgetUrlInputWrapper">
+            <span id="urlLabel">Cliquer pour copier l'URL</span>
+            <input id="widgetUrlInput" type="text" readonly onclick="CopyURLToClipboard()">
+        </div>
+        <button id="loadDefaultsButton" onclick="OpenLoadDefaultsPopup()">Charger les paramètres par défaut</button>
+        <button id="loadSettingsButton" onclick="OpenLoadSettingsPopup()">Charger les paramètres</button>
     </div>
 
-    <script src="script.js"></script>
+    <!-- Main Content Area -->
+    <div id="contentArea">
 
+        <!-- Settings Panel -->
+        <div id="settingsPanel">
+        </div>
+
+        <!-- Widget Preview Panel -->
+        <div id="widget-preview-wrapper">
+            <label id="unmute-label">Clicker pour dénmuter...</label>
+            <iframe id="widgetPreview">
+            </iframe>
+        </div>
+    </div>
+
+    <!-- Load Settings Popup -->
+    <div id="loadSettingsWrapper">
+        <div id="loadSettingsContainer">
+            <h2>Chargement des paramètres</h2>
+            <label style="font-size: 0.8em;">Coller l'URL du widget existant</label>
+            <input id="loadUrlBox" type="text" style="width: 100%;">
+            <div style="display: flex; gap: 20px">
+                <button id="cancelSettingsButton" onclick="CloseSettings()">Annuler</button>
+                <button style="background-color: var(--accent-color);" onclick="LoadSettings()">Charger paramètres</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="loadDefaultsWrapper">
+        <div id="loadDefaultsContainer">
+            <h2>Charger par défaut</h2>
+            <label style="font-size: 0.8em;">Êtes vous surs ?</label>
+            <div style="display: flex; gap: 20px">
+                <button id="cancelDefaultsButton" onclick="CloseDefaultsPopup()">Non</button>
+                <button style="background-color: var(--accent-color);" onclick="LoadDefaultSettings()">Oui</button>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
+
+<script src="../../../.common/utils/helpers.js"></script>
+<script src="script.js"></script>
