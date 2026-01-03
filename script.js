@@ -520,7 +520,7 @@ async function TwitchChatMessage(data) {
 
 	// Get divs
 	const messageContainerDiv = instance.querySelector("#messageContainer");
-	const firstMessageDiv = instance.querySelector("#firstMessage");
+	//const firstMessageDiv = instance.querySelector("#firstMessage");
 	const sharedChatDiv = instance.querySelector("#sharedChat");
 	const sharedChatChannelDiv = instance.querySelector("#sharedChatChannel");
 	const replyDiv = instance.querySelector("#reply");
@@ -754,7 +754,7 @@ async function TwitchAutomaticRewardRedemption(data) {
 
 	// Get divs
 	const messageContainerDiv = instance.querySelector("#messageContainer");
-	const firstMessageDiv = instance.querySelector("#firstMessage");
+	//const firstMessageDiv = instance.querySelector("#firstMessage");
 	const replyDiv = instance.querySelector("#reply");
 	const replyUserDiv = instance.querySelector("#replyUser");
 	const replyMsgDiv = instance.querySelector("#replyMsg");
@@ -2147,7 +2147,7 @@ async function KickChatMessage(data) {
 
 	// Get divs
 	const messageContainerDiv = instance.querySelector("#messageContainer");
-	const firstMessageDiv = instance.querySelector("#firstMessage");
+	//const firstMessageDiv = instance.querySelector("#firstMessage");
 	const sharedChatDiv = instance.querySelector("#sharedChat");
 	const sharedChatChannelDiv = instance.querySelector("#sharedChatChannel");
 	const replyDiv = instance.querySelector("#reply");
@@ -2635,7 +2635,7 @@ async function TikTokChat(data) {
 
 	// Get divs
 	const messageContainerDiv = instance.querySelector("#messageContainer");
-	const firstMessageDiv = instance.querySelector("#firstMessage");
+	//const firstMessageDiv = instance.querySelector("#firstMessage");
 	const sharedChatDiv = instance.querySelector("#sharedChat");
 	const sharedChatChannelDiv = instance.querySelector("#sharedChatChannel");
 	const replyDiv = instance.querySelector("#reply");
