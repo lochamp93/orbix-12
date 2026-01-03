@@ -547,11 +547,11 @@ async function TwitchChatMessage(data) {
 	}
 
 	// Set First Time Chatter
-	const firstMessage = data.message.firstMessage;
-	if (firstMessage && showMessage) {
-		firstMessageDiv.style.display = 'block';
-		messageContainerDiv.classList.add("highlightMessage");
-	}
+	// const firstMessage = data.message.firstMessage;
+	// if (firstMessage && showMessage) {
+	//	firstMessageDiv.style.display = 'block';
+	//	messageContainerDiv.classList.add("highlightMessage");
+	//}
 
 	// Set Shared Chat
 	const isFromSharedChatGuest = data.isFromSharedChatGuest;
